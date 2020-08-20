@@ -1,0 +1,324 @@
+{
+   "formData":[
+      {
+         "Step":"0",
+         "stepName":"household",
+         "submitted":"false",
+         "data":{
+            "household-makeup":"CoupleOnly",
+            "household-dependents":"2",
+            "household-dfvrisk":"false",
+            "household-dfvrisk_attachment":"6fc9464f-62b5-469b-8048-7d725cade3ae_FA567DB3_proof01.pdf",
+            "household-tenantCount":"2"
+         },
+         "attributeMap":{
+
+         }
+      },
+      {
+         "Step":"1",
+         "stepName":"person",
+         "submitted":"false",
+         "data":{
+            "person-title":"Mr",
+            "person-firstName":"John",
+            "person-middleName":"James",
+            "person-lastname":"Doe",
+            "person-hasAlias":"true",
+            "person-aliases":[
+               {
+                  "personAlias-firstName":"Johnny",
+                  "personAlias-middleName":"",
+                  "personAlias-lastName":"Dough"
+               }
+            ],
+            "person-gender":"Male",
+            "person-dateOfBirth":"1970-01-25",
+            "person-hasPowerOfAttorney":"false",
+            "person-powerOfAttorneyName":"",
+            "person-powerOfAttorneyPhone":"",
+            "person-managedByPublicTrustee":"true",
+            "person-publicTrusteeName":"James Trustee",
+            "person-publicTrusteePhone":"5555 5555",
+            "person-employeeOfHPW":"false",
+            "person-indigenousStatus":"None of the above",
+            "person-residencyStatus":"A",
+            "person-residencyDocumentType":"PASSPORT",
+            "person-residencyDocumentAttachment":"6fc9464f-62b5-469b-8048-7d725cade3ae_DB124EA1_proof02.pdf",
+            "residencyDVS":{
+               "documentTypeCode":"PP",
+               "resultCode":"Y"
+            },
+            "person-rentalGrantReason":"",
+            "person-rentalGrantAttachment":"",
+            "person-preferredContactMethod":"",
+            "person-homePhone":"5555 5555",
+            "person-mobile":"555 555 555",
+            "person-email":"john.doe@email.com",
+            "person-residentialAddress":"1 Smith St, Smithville Qld 4000",
+            "person-residentialAddressManualEntry":"false",
+            "person-residentialAddressLine1":"1 Smith St",
+            "person-residentialAddressLine2":"",
+            "person-residentialAddressLine3":"",
+            "person-residentialAddressLocality":"Smithville",
+            "person-residentialAddressState":"Qld",
+            "person-residentialAddressLGA":"Brisbane City",
+            "person-residentialAddressPostcode":"4000",
+            "person-residentialAddressCountry":"Australia",
+            "person-residentialAddressLat":"-27.001",
+            "person-residentialAddressLong":"57.123",
+            "person-residentialAddressLocationType":"ROOFTOP",
+            "person-postalAddressDifferent":"true",
+            "person-postalAdress":"PO BOX 123, Smithville Qld 4000",
+            "person-postalAddressManualEntry":"true",
+            "person-postalAddressLine1":"PO BOX 123",
+            "person-postalAddressLine2":"",
+            "person-postalAddressLine3":"",
+            "person-postalAddressLocality":"Smithville",
+            "person-postalAddressState":"Qld",
+            "person-postalAddressLGA":"Brisbane City",
+            "person-postalAddressPostcode":"4000",
+            "person-postalAddressCountry":"Australia",
+            "person-postalAddressLat":"-27.001",
+            "person-postalAddressLong":"57.123",
+            "person-postalAddressLocationType":"APPROXIMATE",
+            "person-alternativeContacts":[
+               {
+                  "personContact-firstName":"Bill",
+                  "personContact-lastName":"Dough",
+                  "personContact-phone":"5555 1111",
+                  "personContact-relationship":"Sibbling"
+               }
+            ],
+            "person-incomes":[
+               {
+                  "personIncome-type":"1",
+                  "personIncome-proofType":"1",
+                  "personIncome-proofAttachment":"",
+                  "personIncome-reference":"CRN00001111",
+                  "personIncome-comments":"",
+                  "personIncome-grossWeeklyIncome":"500"
+               }
+            ],
+            "person-savings":"400",
+            "person-propertyOwnershipType":"None of the above"
+         },
+         "attributeMap":{
+            "person-title":"person.title",
+            "person-firstName":"person.firstName",
+            "person-middleName":"person.middleName",
+            "person-lastname":"person.lastName",
+            "person-hasAlias":"person.hasAlias",
+            "person-aliases":"person.aliases",
+            "person-gender":"person.gender",
+            "person-dateOfBirth":"person.dateOfBirth",
+            "person-hasPowerOfAttorney":"person.hasPowerOfAttorney",
+            "person-powerOfAttorneyName":"person.powerOfAttorneyDetails",
+            "person-powerOfAttorneyPhone":"person.powerOfAttorneyDetails",
+            "person-managedByPublicTrustee":"person.managedByPublicTrustee",
+            "person-publicTrusteeName":"person.publicTrusteeDetails",
+            "person-publicTrusteePhone":"person.publicTrusteeDetails",
+            "person-indigenousStatus":"person.indigenousStatus",
+            "person-residencyDVS":"dvs.residencyDVS",
+            "person-homePhone":"person.homePhone",
+            "person-mobile":"person.mobile",
+            "person-email":"person.email",
+            "person-residentialAddress":"person.residentialAddress",
+            "person-residentialAddressManualEntry":"person.residentialAddressManualEntry",
+            "person-residentialAddressLine1":"person.residentialAddressLine1",
+            "person-residentialAddressLine2":"person.residentialAddressLine2",
+            "person-residentialAddressLine3":"person.residentialAddressLine3",
+            "person-residentialAddressLocality":"person.residentialAddressLocality",
+            "person-residentialAddressState":"person.residentialAddressState",
+            "person-residentialAddressLGA":"person.residentialAddressLGA",
+            "person-residentialAddressPostcode":"person.residentialAddressPostcode",
+            "person-residentialAddressCountry":"person.residentialAddressCountry",
+            "person-residentialAddressLat":"person.residentialAddressLat",
+            "person-residentialAddressLong":"person.residentialAddressLong",
+            "person-residentialAddressLocationType":"person.residentialAddressLocationType",
+            "person-postalAddressDifferent":"person.postalAddressDifferent",
+            "person-postalAdress":"person.postalAddress",
+            "person-postalAddressManualEntry":"person.postalAddressManualEntry",
+            "person-postalAddressLine1":"person.postalAddressLine1",
+            "person-postalAddressLine2":"person.postalAddressLine2",
+            "person-postalAddressLine3":"person.postalAddressLine3",
+            "person-postalAddressLocality":"person.postalAddressLocality",
+            "person-postalAddressState":"person.postalAddressState",
+            "person-postalAddressLGA":"person.postalAddressLGA",
+            "person-postalAddressPostcode":"person.postalAddressPostcode",
+            "person-postalAddressCountry":"person.postalAddressCountry",
+            "person-postalAddressLat":"person.postalAddressLat",
+            "person-postalAddressLong":"person.postalAddressLong",
+            "person-postalAddressLocationType":"person.postalAddressLocationType",
+            "person-alternativeContacts":"person.alternativeContacts"
+         }
+      },
+      {
+         "Step":"2",
+         "stepName":"tenants",
+         "submitted":"false",
+         "data":[
+            {
+               "tenant-title":"Mr",
+               "tenant-firstName":"Jane",
+               "tenant-middleName":"Mary",
+               "tenant-lastName":"Doe",
+               "tenant-gender":"Female",
+               "tenant-dateOfBirth":"1975-05-15",
+               "tenant-hasAlias":"false",
+               "tenant-hasPowerOfAttorney":"true",
+               "tenant-powerOfAttorneyName":"John Doe",
+               "tenant-powerOfAttorneyPhone":"5555 5555",
+               "tenant-managedByPublicTrustee":"false",
+               "tenant-publicTrusteeName":"",
+               "tenant-publicTrusteePhone":"",
+               "tenant-employeeOfHPW":"false",
+               "tenant-indigenousStatus":"None of the above",
+               "tenant-residencyStatus":"A",
+               "tenant-residencyDocumentType":"BIRTHCERT",
+               "tenant-residencyDocumentAttachment":"file_name_02.pdf",
+               "tenant-rentalGrantReason":"",
+               "tenant-rentalGrantAttachment":"",
+               "tenant-preferredContactMethod":"Phone",
+               "tenant-homePhone":"5555 5555",
+               "tenant-mobile":"555 555 555",
+               "tenant-email":"jane.doe@email.com",
+               "tenant-addressDifferentToPrimary":"No",
+               "tenant-residentialAddress":"",
+               "tenant-residentialAddressManualEntry":"",
+               "tenant-residentialAddressLine1":"",
+               "tenant-residentialAddressLine2":"",
+               "tenant-residentialAddressLine3":"",
+               "tenant-residentialAddressLocality":"",
+               "tenant-residentialAddressState":"",
+               "tenant-residentialAddressLGA":"",
+               "tenant-residentialAddressPostcode":"",
+               "tenant-residentialAddressCountry":"",
+               "tenant-residentialAddressLat":"",
+               "tenant-residentialAddressLong":"",
+               "tenant-residentialAddressLocationType":"",
+               "tenant-postalAddressDifferent":"",
+               "tenant-postalAddress":"",
+               "tenant-postalAddressManualEntry":"",
+               "tenant-postalAddressLine1":"",
+               "tenant-postalAddressLine2":"",
+               "tenant-postalAddressLine3":"",
+               "tenant-postalAddressLocality":"",
+               "tenant-postalAddressState":"",
+               "tenant-postalAddressLGA":"",
+               "tenant-postalAddressPostcode":"",
+               "tenant-postalAddressCountry":"",
+               "tenant-postalAddressLat":"",
+               "tenant-postalAddressLong":"",
+               "tenant-postalAddressLocationType":"",
+               "tenant-aliases":[
+                  {
+                     "tenantAlias-firstName":"",
+                     "tenantAlias-middleName":"",
+                     "tenantAlias-lastName":""
+                  }
+               ],
+               "tenant-incomes":[
+                  {
+                     "tenantIncome-type":"1",
+                     "tenantIncome-proofType":"5",
+                     "tenantIncome-proofAttachment":"file_name_01.pdf",
+                     "tenantIncome-reference":"",
+                     "tenantIncome-comments":"",
+                     "tenantIncome-grossWeeklyIncome":"350"
+                  }
+               ],
+               "tenant-savings":"250",
+               "tenant-propertyOwnershipType":"None of the above",
+               "tenant-alternativeContacts":[
+                  {
+                     "tenantContact-firstName":"Mary",
+                     "tenantContact-lastName":"Doe",
+                     "tenantContact-phone":"5555 8888",
+                     "tenantContact-relationship":"Mother"
+                  }
+               ]
+            }
+         ],
+         "attributeMap":{
+
+         }
+      },
+      {
+         "Step":"3",
+         "stepName":"rentalProperty",
+         "submitted":"false",
+         "data":{
+            "rentalProperty-address":"1 James Rd, Smithville Qld 4000",
+            "rentalProperty-addressManualEntry":"false",
+            "rentalProperty-addressLine1":"1 James Rd",
+            "rentalProperty-addressLine2":"",
+            "rentalProperty-addressLine3":"",
+            "rentalProperty-addressLocality":"Smithville",
+            "rentalProperty-addressState":"Qld",
+            "rentalProperty-addressLGA":"Brisbane City",
+            "rentalProperty-addressPostcode":"4000",
+            "rentalProperty-addressCountry":"Australia",
+            "rentalProperty-addressLat":"-27.0003",
+            "rentalProperty-addressLong":"53.456",
+            "rentalProperty-addressLocationType":"ROOFTOP",
+            "rentalProperty-type":"B",
+            "rentalProperty-bedrooms":"3",
+            "rentalProperty-weeklyRent":"350",
+            "rentalProperty-leaseStartDate":"2020-11-05",
+            "rentalProperty-leaseTermMonths":"6",
+            "rentalProperty-bond":"1400",
+            "rentalProperty-bondContribution":"250",
+            "rentalProperty-bondLoan":"1150"
+         },
+         "attributeMap":{
+
+         }
+      },
+      {
+         "Step":"4",
+         "stepName":"rentalAgent",
+         "submitted":"false",
+         "data":{
+            "rentalAgent-name":"Ray White",
+            "rentalAgent-phone":"5555 6666",
+            "rentalAgent-mobile":"555 666 555",
+            "rentalAgent-facsimile":"5555 7777",
+            "rentalAgent-email":"ray.white@email.com",
+            "rentalAgent-address":"99 Ray Rd, Whiteville Qld 4001",
+            "rentalAgent-addressManualEntry":"false",
+            "rentalAgent-addressLine1":"99 Ray Rd",
+            "rentalAgent-addressLine2":"",
+            "rentalAgent-addressLine3":"",
+            "rentalAgent-addressLocality":"Whiteville",
+            "rentalAgent-addressState":"Qld",
+            "rentalAgent-addressLGA":"Brisbane City",
+            "rentalAgent-addressPostcode":"4001",
+            "rentalAgent-addressCountry":"Australia",
+            "rentalAgent-addressLat":"-27.125",
+            "rentalAgent-addressLong":"53.777",
+            "rentalAgent-addressLocationType":"ROOFTOP"
+         },
+         "attributeMap":{
+
+         }
+      },
+      {
+         "Step":"5",
+         "stepName":"additional",
+         "submitted":"false",
+         "data":{
+            "additional-consent":"true",
+            "additional-comments":"Could you please call me urgently as I need this loan."
+         },
+         "attributeMap":{
+
+         }
+      }
+   ],
+   "attachments": [
+      "6fc9464f-62b5-469b-8048-7d725cade3ae_FA567DB3_proof01.pdf",
+      "6fc9464f-62b5-469b-8048-7d725cade3ae_DB124EA1_proof02.pdf"
+  ]
+   
+}
